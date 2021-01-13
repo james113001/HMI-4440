@@ -1,0 +1,15 @@
+body,h1 {
+    font-family: "Raleway", sans-serif
+}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+    color: white;
+  }
+
+body {
+    background-position: left;
+    background-size: cover;
+    background-image: url("BodyGraphic.png");
+    min-height: 100%;
+  }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function button() { 
+                alert("Calculate button was clicked.");
+            }
+        </script>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+    <body>
+        <div class="w3-display-left w3-text-white" style="padding:48px">
+        <h1>
+            Centor Score for Strep Throat
+        </h1>
+        <p>What is your age in years? (Group A Strep rare under 3)</p>
+
+        <INPUT type="radio" name="Age" value="rad_button1" onClick=0>3-14 
+        <INPUT type="radio" name="Age" value="rad_button2" onClick=0>15-44 
+        <INPUT type="radio" name="Age" value="rad_button3" onClick=0>>=45
+        
+        
+        <p>Do you have exudate or swelling on your tonsils?</p> 
+        <INPUT type="radio" name="Exudate" value="rad_button1" onClick=0>Yes 
+        <INPUT type="radio" name="Exudate" value="rad_button2" onClick=0>No<BR>
+        <p>Do you have tender or swollen anterior cervical lymph nodes?</p> 
+        <INPUT type="radio" name="Swollen" value="rad_button1" onClick=0>Yes
+        <INPUT type="radio" name="Swollen" value="rad_button2" onClick=0>No<BR>
+        <p>Do you have a fever over 38 &degC or 100.4 &degF?</p>
+        <INPUT type="radio" name="Fever" value="rad_button1" onClick=0>Yes
+        <INPUT type="radio" name="Fever" value="rad_button2" onClick=0>No<BR> 
+        <p>Do you have a cough?</p>
+        <INPUT type="radio" name="Cough" value="rad_button1" onClick=0>Yes
+        <INPUT type="radio" name="Cough" value="rad_button2" onClick=0>No<BR> 
+        
+        <button type="button" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off" onclick="button()">Calculate</button>
+    </div>
+
+
+    </body>
+</html>
